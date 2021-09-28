@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1632835098 source:c:\users\hanna\onedrive\desktop\info\internet\3labord\main.cpp
+	<iostream>
+	<fstream>
+
