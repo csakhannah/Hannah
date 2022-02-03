@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1643873742 source:d:\hannah\xi. c++\interaktiv backtracking\main.cpp
+	<math.h>
+	<time.h>
+	<iostream>
+
