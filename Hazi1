@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int v[100], u[100], n,m,i,j,S=0, P=0;
+    cout<< "n=";
+    cin>>n;
+    for(i=1;i<=n;i++){
+        cout<< "v["<<i<<"]= ";
+        cin>>v[i];
+    }
+    for(j=1;j<=n;j++){
+        cout<<"u["<<j<<"]= ";
+        cin>> u[j];
+    }
+    for (i=1; i<=n;i++){
+        if(a[i]%2)
+    }
+    return 0;
+}
