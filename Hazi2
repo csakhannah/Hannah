@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   int k , n, v[100], S=0;
+   cout<< "n=";
+   cin>>n;
+   cout<< "k=";
+   cin>>k;
+   for(int i=0;i<n;i++){
+    cout<<"v["<<i<<"]= ";
+    cin>>v[i];
+   }
+   for(int i=0;i<n;i++){
+    int nr=0;
+    while(v[i]!=0){
+        v[i]=v[i]/10;
+        nr ++;
+    }
+   if(nr>k){
+    S++;
+   }
+   }
+   cout<<S<<endl;
+    return 0;
+}
